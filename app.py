@@ -3,7 +3,7 @@ import pandas as pd
 
 ## Add a title 
 st.title("Flipkart Sales Data")
-st.subheader('1. Raw data')
+st.subheader('Raw data')
 
 ## Read the CSV file 
 df = pd.read_csv('flipkart_sales.csv')
